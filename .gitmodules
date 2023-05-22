@@ -1,0 +1,6 @@
+[submodule "submodules/hls_arbitrary_precision_types"]
+	path = submodules/hls_arbitrary_precision_types
+	url = https://github.com/Xilinx/HLS_arbitrary_Precision_Types.git
+[submodule "submodules/ksw2"]
+	path = submodules/ksw2
+	url = https://github.com/lh3/ksw2.git

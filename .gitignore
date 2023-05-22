@@ -1,0 +1,10 @@
+.ipcache/
+host-ksw2
+.run/*
+_x*
+build_dir.*
+.vscode
+*.o
+ksw2-test
+*.log
+
