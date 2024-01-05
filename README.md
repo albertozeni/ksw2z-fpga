@@ -66,4 +66,18 @@ Alveo U250 Exec. Time [s] | Xeon 8167M Exec. Time [s] | Sequence Length | Bandwi
 
 Our implementation is a full 1:1 replacement for the KSW2z scoring algorithm, as such it can be used to replace KSW2z in all the pipelines that exploit.
 Furthermore, our kernel supports the alignment of protein sequences also, as it implements a generic scoring method, making it possible to align sequences with different scores depending on the comparing characters.
-A link to the proceedings of our paper @ISCAS23 will be added shortly.
+
+## Citation
+
+To cite our work or to know more about our methods, please refer to:
+
+```
+@inproceedings{zeni2023genome,
+  title={On the genome sequence alignment fpga acceleration via ksw2z},
+  author={Zeni, Alberto and Di Donato, Guido Walter and Della Valle, Alessia and Carloni, Filippo and Santambrogio, Marco D},
+  booktitle={2023 IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages={1--5},
+  year={2023},
+  organization={IEEE}
+}
+```
